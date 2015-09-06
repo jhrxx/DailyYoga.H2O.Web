@@ -12,6 +12,15 @@
         controller: 'MainController',
         controllerAs: 'main'
       })
+      .when('/exercises', {
+        templateUrl: 'app/exercises/exercises.html'
+      })
+      .when('/about', {
+        templateUrl: 'app/about/about.html'
+      })
+      .when('/contact', {
+        templateUrl: 'app/contact/contact.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
