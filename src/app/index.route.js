@@ -13,7 +13,9 @@
         controllerAs: 'main'
       })
       .when('/exercises', {
-        templateUrl: 'app/exercises/exercises.html'
+        templateUrl: 'app/exercises/exercises.html',
+        controller: 'ExercisesController',
+        controllerAs: 'exerc'
       })
       .when('/about', {
         templateUrl: 'app/about/about.html'
