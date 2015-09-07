@@ -18,7 +18,9 @@
         controllerAs: 'exerc'
       })
       .when('/about', {
-        templateUrl: 'app/about/about.html'
+        templateUrl: 'app/about/about.html',
+        controller: 'AboutController',
+        controllerAs: 'about'
       })
       .when('/contact', {
         templateUrl: 'app/contact/contact.html'

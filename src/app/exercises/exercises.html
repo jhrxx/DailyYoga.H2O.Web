@@ -1,12 +1,18 @@
-<section id="content">
-	<div class="row">
-		<div class="col-xs-12 col-sm-3" ng-repeat="item in data">
-		<figure data-name="primary_fat_burn_yoga">
-      <figcaption>{{item.title}}
-        <p>{{item.content}}</p>
-      </figcaption>
-    </figure>
-			<span></span>
-		</div>
-	</div>
+<section id="exercises">
+  <header class="page-head"></header>
+  <div class="container">
+    <div class="row" id="programs">
+      <div class="col-xs-12 col-sm-3" ng-repeat="item in data">
+        <figure>
+          <figcaption>
+            {{item.title}}
+            <p>{{item.content}}</p>
+          </figcaption>
+          <img ng-src="assets/images/programs/{{item.id}}.png" alt="">
+        </figure>
+        <span></span>
+      </div>
+    </div>
+  </div>
 </section>
+

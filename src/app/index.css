@@ -79,15 +79,15 @@ navbar > header {
   border-color: #43baef !important;
   background-color: #14a9eb !important;
 }
-.btn-default:active,
-.btn-default:visited,
-.btn-default:focus,
-.btn-default {
+.btn-outline-inverse:active,
+.btn-outline-inverse:visited,
+.btn-outline-inverse:focus,
+.btn-outline-inverse {
   color: #fff !important;
   border-color: #fff !important;
   background-color: transparent !important;
 }
-.btn-default:hover {
+.btn-outline-inverse:hover {
   color: #fff !important;
   border-color: #fff !important;
   background-color: rgba(255, 255, 255, 0.4) !important;
@@ -97,6 +97,10 @@ navbar > header {
   .container {
     width: 1220px;
   }
+}
+
+header.page-head{
+  height: 330px;
 }
 
 .part .big-title {
@@ -128,7 +132,6 @@ navbar > header {
   float: right;
   width: 565px;
   background: url(../assets/images/part1-feature.png) no-repeat left top;
-  /*background-size: contain;*/
 }
 .part1 .btns {
   position: absolute;
