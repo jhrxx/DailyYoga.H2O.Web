@@ -3,8 +3,8 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-header">
-          <button class="navbar-toggle collapsed" type="button" ng-click="isCollapsed = !isCollapsed">
-            <span class="sr-only">Toggle navigation</span>
+          <button class="navbar-toggle" type="button">
+            <span class="sr-only">Toggle navigation {{isCollapsed}}</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -15,10 +15,10 @@
         </div>
         <div class="navbar-collapse collapse" ng-class="{true: 'in'}[isCollapsed]">
           <ul class="nav navbar-nav navbar-right">
-            <li ng-class="{ active: isActive('/')}"><a href='#/' ng-click="isCollapsed = !isCollapsed">DOWNLOAD</a></li>
-            <li ng-class="{ active: isActive('/exercises')}"><a href='#/exercises' ng-click="isCollapsed = !isCollapsed">EXERCISES</a></li>
-            <li ng-class="{ active: isActive('/about')}"><a href='#/about' ng-click="isCollapsed = !isCollapsed">ABOUT</a></li>
-            <li ng-class="{ active: isActive('/contact')}"><a href='#/contact' ng-click="isCollapsed = !isCollapsed">CONTACT</a></li>
+            <li ng-class="{ active: isActive('/')}"><a href='#/' >DOWNLOAD</a></li>
+            <li ng-class="{ active: isActive('/exercises')}"><a href='#/exercises' >EXERCISES</a></li>
+            <li ng-class="{ active: isActive('/about')}"><a href='#/about' >ABOUT</a></li>
+            <li ng-class="{ active: isActive('/contact')}"><a href='#/contact' >CONTACT</a></li>
           </ul>
         </div>
       </div>

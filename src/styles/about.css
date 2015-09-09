@@ -7,9 +7,9 @@
   text-align: center;
 }
 
-#about_nav a {
+#about_nav button {
   min-width: 110px;
-  margin: 0 1px 10px ;
+  margin: 0 4px 10px ;
 }
 
 #instructors,
@@ -27,7 +27,7 @@
   color: #43baef;
 }
 #about .content {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 #about .content h2 {
   font-size: 36px;
@@ -46,6 +46,12 @@
   font-size: 16px;
   margin-bottom: 100px;
   text-align: left;
+}
+#policy p {
+  /*word-break:break-all;*/
+  white-space: pre-line;
+  white-space: -pre-wrap;
+  word-wrap: break-word;
 }
 @media (min-width: 768px) {
   #about_nav a {
