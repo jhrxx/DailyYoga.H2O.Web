@@ -25,7 +25,6 @@
       $scope.isActive = function(path) {
         return $location.path() == path;
       }
-      // $log.log($location.path());
     }
   }
 

@@ -1,5 +1,9 @@
 <!doctype html>
-<html ng-app="h2o">
+<!--[if lt IE 10]> <html lang="en" class="ie9" ng-app="h2o"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" ng-app="h2o">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
   <head>
     <meta charset="utf-8">
     <title>Daily Yoga</title>
@@ -25,7 +29,7 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <navbar></navbar>
-    <article ng-view></article>
+    <article autoscroll="true" ng-view></article>
     <footinfo></footinfo>
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->

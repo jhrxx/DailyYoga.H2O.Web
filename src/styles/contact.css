@@ -1,9 +1,6 @@
 #contact {
   padding-bottom: 100px;
 }
-#contact .page-head {
-  background: url(../../assets/images/contact-bg.png) no-repeat top center;;
-}
 #contact h1 {
   font-size: 40px;
   margin: 100px 0;
@@ -12,9 +9,12 @@
 }
 #contact ul {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 35px;
   margin-bottom: 50px;
 }
 #contact ul > li a {
   color: #ff6e1f;
+}
+#contact .page-head {
+  background-image: url(../assets/images/contact-bg.png);
 }

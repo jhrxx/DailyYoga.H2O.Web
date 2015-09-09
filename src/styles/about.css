@@ -2,16 +2,14 @@
   color: #43baef;
   text-align: center;
 }
-#about .page-head {
-  background: url(../../assets/images/about-bg.png) no-repeat top center;;
-}
 #about_nav {
   margin: 40px 0;
   text-align: center;
 }
 
 #about_nav a {
-  min-width: 150px;
+  min-width: 110px;
+  margin: 0 1px 10px ;
 }
 
 #instructors,
@@ -28,6 +26,9 @@
   font-size: 20px;
   color: #43baef;
 }
+#about .content {
+  margin-bottom: 50px;
+}
 #about .content h2 {
   font-size: 36px;
   margin: 40px 0 20px;
@@ -36,9 +37,22 @@
   line-height: 30px;
   font-size: 16px;
   margin-bottom: 30px;
+  text-align: left;
 }
 #policy,
 #tos {
-  margin-bottom: 50px;
   line-height: 25px;
+  line-height: 30px;
+  font-size: 16px;
+  margin-bottom: 100px;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  #about_nav a {
+    min-width: 150px;
+    margin: 0 5px;
+  }
+}
+#about .page-head {
+  background-image: url(../assets/images/about-bg.png);
 }

@@ -11,7 +11,7 @@
   	var data = [{
 			id:1,title: 'Yoga for Weight loss I', name: '初级减脂瑜伽', content: 'Easy-to-learn yoga session with simple poses specially designed for beginners to lose weight.', desc: '简单易练的瑜伽课程。适宜所有级别的瑜伽爱好者，让你最快获得减肥瘦身的效果。'
 			},{id:2,title: 'Yoga for Runners', name: '跑步者瑜伽', content: 'Yoga solution for runners to eliminate side-effects like back and chest pain.Pre-Run and Post-Run trainings help you enjoy a better running.', desc: '跑步和瑜伽的完美搭配，让你在一次锻炼中同时兼顾力量与柔韧，更好的感受运动的快感。 跑前热身练习用于增强身体的平衡性，跑后拉伸练习重于修复，感受最棒的跑步体验。'
-			},{id:3, title: 'Yoga for Body Toning I', name: '形体瑜伽', content: 'I  Provides good figure building sessions besides weight loss training. Through an overall training, every part of your body will be covered to burn fats and streamline your body.', desc: '覆盖身体每一个部位，助你在减肥燃脂的同时塑造美好身形。促进新陈代谢、消化和排泄，消除水肿，排净体内毒素。'
+			},{id:3, title: 'Yoga for Body Toning I', name: '形体瑜伽', content: 'Provides good figure building sessions besides weight loss training. Through an overall training, every part of your body will be covered to burn fats and streamline your body.', desc: '覆盖身体每一个部位，助你在减肥燃脂的同时塑造美好身形。促进新陈代谢、消化和排泄，消除水肿，排净体内毒素。'
 			},{id:4, title: 'Sun Salutation', name: '太阳式', content: 'Guides you through the traditional sequence of Sun Salutation with detailed demonstrations of breathing coordinated with posture performing. Formed by a group of asanas that originated from behaviors of honoring the sun.  ', desc: '带领你学习太阳式——这一传统的瑜伽体式串联练习。跟随详尽的语音解说，你将学会如何更好的协调呼吸和动作，达到最佳的瑜伽健身效果。'
 			},{id:5, title: 'Yoga for Slim Waist', name: '腰腹速瘦瑜伽', content: 'For yogis who want to fight belly fat and achieve a slim waist. Relatively high intensity, directly targeting your fat.A curved waist is just at your hand!', desc: '搞定烦人肚子肉，打造纤细小蛮腰。核心肌力勤锻炼，消除赘肉，强健腹肌。有效拉伸助纤体，使肌体型更加匀称和舒展。瑜伽扭转助消化，改善腹部血液循环，促进消化和排毒的进程。'
 			},{id:6, title: 'Yoga for Slim Legs', name: '腿部速瘦瑜伽', content: 'Sculpting your legs with yoga. Yoga for Slim legs provides abundant postures specifically targeting your leg. A full set of flow yoga sequence designed for quick leg toning.', desc: '有效锻炼双腿的每一个部分，燃烧大腿脂肪。这个夏天，利用瑜伽打造健康美腿吧~'
@@ -37,6 +37,6 @@
   /** @ngInject */
   function ExercisesController($scope, $log, Exercises) {
   	$scope.data = Exercises.getData();
-  	$log.log($scope.data);
+  	// $log.log($scope.data);
   }
 })();
